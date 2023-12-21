@@ -1,0 +1,1 @@
+clang-tidy -p /home/yyd/code/other_projects/mindspore/build/mindspore ./sigmoid.cc -checks="-*,misc-expander-*" --fix-errors
